@@ -3,6 +3,7 @@ git+https://github.com/ytdl-org/youtube-dl
 psutil
 timeago==1.0.13
 discord-pretty-help
+discord-py-interactions
 genshinstats==1.4.9.2
 requests
 browser-cookie3
