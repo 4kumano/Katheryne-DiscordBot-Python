@@ -1,0 +1,18 @@
+{
+  "token": "",
+  "join_message": "I has joined to do stuff 検",
+  "owners": [
+    408857380173119498
+  ],
+  "prefix": [
+    ">>"
+  ],
+  "cookie_file": "",
+  "yt_apikey": "",
+  "userid": "",
+  "channel": "",
+  "activity": "games!",
+  "activity_type": "playing|watching|listening|competing",
+  "status_type": "online|idle|dnd"
+  
+}
