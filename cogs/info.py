@@ -34,7 +34,13 @@ class Information(commands.Cog):
         # Do not remove this command, this has to stay due to the GitHub LICENSE.
         # TL:DR, you have to disclose source according to MIT, don't change output either.
         # Reference: https://github.com/AlexFlipnote/discord_bot.py/blob/master/LICENSE
-        await ctx.send(f"**{ctx.bot.user}** is powered by this source code:\n Discord Bot : https://github.com/AlexFlipnote/discord_bot.py \n Genshin Stats : https://github.com/thesadru/culturebot \n Music : https://github.com/CharmingDays/kurusaki_voice")
+        rand = discord.Colour.random()
+        embed = discord.Embed(title="is powered by this source code:", color=rand)
+        embed.add_field(name=" Discord Bot :", value="https://github.com/AlexFlipnote/discord_bot.py", inline=False)
+        embed.add_field(name="Genshin Stats :", value="https://github.com/thesadru/culturebot", inline=False)
+        embed.add_field(name="Music :", value="https://github.com/CharmingDays/kurusaki_voice", inline=False)
+
+        await ctx.send(f"**{ctx.bot.user}** \nSource Code: https://github.com/4kumano/Katheryne-DiscordBot-Python \n", embed=embed)
 
     @commands.command(aliases=["supportserver", "feedbackserver"])
     async def botserver(self, ctx):
