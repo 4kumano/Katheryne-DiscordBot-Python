@@ -1,0 +1,11 @@
+git+https://github.com/Rapptz/discord.py
+git+https://github.com/ytdl-org/youtube-dl
+psutil
+timeago==1.0.13
+discord-pretty-help
+genshinstats==1.4.9.2
+requests
+browser-cookie3
+cachetools
+asyncio
+google-api-python-client
